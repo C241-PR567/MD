@@ -1,11 +1,12 @@
-package com.dicoding.md
+package com.dicoding.md.ui.resultDetection
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.dicoding.md.R
 
-class MainActivity : AppCompatActivity() {
+class ResultSkinActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_result_skin)
     }
 }
