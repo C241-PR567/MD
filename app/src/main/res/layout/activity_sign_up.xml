@@ -151,7 +151,7 @@
                 tools:alpha="100">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/password_EditText"
+                    android:id="@+id/phone_EditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"

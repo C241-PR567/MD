@@ -20,10 +20,10 @@ class SignUpActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.registerButton.setOnClickListener {
-            val name = binding.edRegisterName.toString()
-            val email = binding.edRegisterEmail.toString()
-            val password = binding.edRegisterPassword.toString()
-            val phone = binding.edRegisterPhone.toString()
+            val name = binding.nameEditText.text.toString()
+            val email = binding.emailEditText.text.toString()
+            val password = binding.passwordEditText.text.toString()
+            val phone = binding.phoneEditText.text.toString()
 
 
             if (name.isBlank() || email.isBlank() || password.isBlank() || phone.isBlank()) {
